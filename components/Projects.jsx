@@ -26,7 +26,7 @@ const projects = [
     image: "/assets/Banner-3.png",
     description: "A personal portfolio showcasing skills and projects.",
     link: "#",
-    github: "#",
+    github: "https://github.com/Kaushal171205/Portfolio-Website",
     tech: ["React", "CSS", "Vite"]
   },
   {
