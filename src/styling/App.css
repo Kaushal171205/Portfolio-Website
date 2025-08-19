@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body, html, #root {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.app{
+    background-color: #f5f8fa;
+    height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.app-dark{
+    background-color: #1a202c;
+    color: #f5f8fa;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.app-dark .intro-name {
+  color: #e6007a;
+}
+
+.app-dark .intro-role {
+  color: #e6007a;
+}
+.app-dark .intro-heading{
+  color:#f5f8fa
+}
+
+.center-content {
+  min-height: 100vh;         
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  animation: fadeInUp 2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro-heading {
+
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+
+.intro-name {
+  color: #e6007a; /* Use a blue shade similar to the screenshot */
+  font-weight: 700;
+}
+
+.intro-role {
+
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.intro-desc-bar {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+  border-radius: 2px;
+}
+
+.intro-desc {
+  color: #444a53;
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin: 0.5rem 0;
+  padding: 0.3rem 0.5rem;
+  background: transparent;
+}
+
+.app-dark .intro-desc {
+  color: #fff;
+}
+
+.projects {
+    background-color: #444a53;
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(90,90,230,0.10);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    letter-spacing: 0.5px;
+  }
+  
+  .projects:hover {
+    background: white;
+    color: #444a53;
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 6px 24px rgba(90,90,230,0.18);
+    border: 2px solid #e6007a;
+  }
+
+.social-icons-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-icon {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 8px 32px rgba(44,62,80,0.18), 0 2px 8px rgba(44,62,80,0.12);
+  transition: box-shadow 0.2s, transform 0.2s;
+  font-size: 2.2rem;
+  color: #2d3748;
+}
+
+.social-icon:hover {
+  box-shadow: 0 16px 48px rgba(44,62,80,0.22);
+  transform: translateY(-6px) scale(1.09);
+  color: #e6007a;
+}
+
+.social-icon svg {
+  width: 36px;
+  height: 36px;
+}
+
+
+
+
+@media (max-width: 700px) {
+  .intro-heading {
+    font-size: 2.2rem;
+  }
+  .intro-role {
+    font-size: 1.5rem;
+  }
+  .intro-desc-bar {
+    width: 95vw;
+  }
+} 
+
+@media (max-width: 900px) {
+  .intro-heading {
+    font-size: 1.7rem;
+  }
+  .intro-role {
+    font-size: 1.1rem;
+  }
+  .intro-desc-bar {
+    width: 99vw;
+    font-size: 1rem;
+  }
+  .projects {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .social-icons-row {
+    gap: 1rem;
+  }
+  .social-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro-heading {
+    font-size: 1.1rem;
+  }
+  .intro-role {
+    font-size: 0.9rem;
+  }
+  .intro-desc-bar {
+    width: 100vw;
+    font-size: 0.9rem;
+    padding: 0 0.2rem;
+  }
+  .projects {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
+  }
+  .social-icons-row {
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .social-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+}
+
+body, html, #root, .app, .app-dark {
+  max-width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+} 
+
+.page3 {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.page3 h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem; /* more space between */
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap; /* allows multiple lines */
+  max-width: 900px; /* keeps it from stretching too far */
+  margin: 0 auto;
+}
+
+.img-container li {
+  list-style: none;
+}
+
+.img-container img {
+  width: 120px;   /* bigger size */
+  height: 120px;  /* bigger size */
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.img-container img:hover {
+  transform: scale(0.85); /* zoom-out effect */
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+
+.page3{
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+}

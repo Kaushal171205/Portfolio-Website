@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela&display=swap');
+ /* Default Light Mode (your current styles stay as they are) */
+
+/* 🌙 Dark Mode */
+.app-dark {
+  background-color: #1a202c;
+  color: #f8f9fa; /* light text for contrast */
+}
+
+/* Make all sections/cards adapt to dark mode */
+.app-dark .about-section,
+.app-dark .projects-section,
+.app-dark .hackathons-section,
+.app-dark .connect-section,
+.app-dark .navbar {
+  background-color: #1a202c !important;
+  color: #f8f9fa !important;
+}

@@ -1,0 +1,85 @@
+.connect-section {
+  padding: 4rem 2rem;
+  background: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.connect-title {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block; 
+  cursor: pointer;
+}
+
+.connect-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 0.6rem auto 0;
+  background: #e6007a;
+  box-shadow: 0 0 10px #e6007a;
+  transition: width 0.4s ease-in-out;
+}
+.connect-title:hover::after{
+    width:100%;
+}
+/* Form styling */
+.connect-form {
+  max-width: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Input + textarea */
+.connect-form input,
+.connect-form textarea {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  background: #f9f9f9;
+  transition: border 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.connect-form input:focus,
+.connect-form textarea:focus {
+  border: 1px solid #e6007a;
+  box-shadow: 0 0 8px rgba(230, 0, 122, 0.4);
+  background: #fff;
+}
+
+/* Button */
+.connect-form button {
+  background: #e6007a;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.connect-form button:hover {
+  background: #c20068;
+  transform: translateY(-2px);
+}
+
+.status {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+.app-dark .connect-title{
+  color: #fff;
+}

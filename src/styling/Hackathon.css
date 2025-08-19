@@ -1,0 +1,178 @@
+/* White clean section */
+.hackathons-section {
+  padding: 4rem 2rem;
+  background: #fff;
+  text-align: center;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+}
+/* Title with underline glow */
+.hackathons-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+   display: inline-block; /* important to make ::after align properly */
+  cursor: pointer;
+}
+
+.hackathons-title::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  margin: 0.5rem auto 0;
+  background: #e6007a;
+  box-shadow: 0 0 10px #e6007a;
+  transition: width 0.4s ease-in-out; /* smooth animation */
+}
+
+.hackathons-title:hover::after {
+  width: 100%; /* elongates underline on hover */
+}
+
+/* Responsive grid */
+.hackathons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Card style */
+.hackathon-card {
+  background: #fafafa;
+  border: 1px solid rgba(230, 0, 122, 0.3);
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: left;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+
+/* Scroll reveal animation */
+.hackathon-card.reveal {
+  transform: translateY(0);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+.hackathon-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(230, 0, 122, 0.4);
+  border-color: #e6007a;
+}
+
+/* Heading */
+.hackathon-card h2 {
+  font-size: 1.3rem;
+  color: #e6007a;
+  margin-bottom: 0.3rem;
+}
+
+/* Year badge */
+.hack-year {
+  display: inline-block;
+  background: #e6007a;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 0 6px rgba(230, 0, 122, 0.7);
+}
+
+/* Organizer */
+.organizer {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+/* Description */
+.achievement {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Certificate thumbnail */
+.certificate-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(230, 0, 122, 0.5);
+}
+
+/* Fullscreen overlay */
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 15, 15, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Fullscreen image */
+.fullscreen-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(230, 0, 122, 0.7);
+  animation: zoomIn 0.3s ease-in-out;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.close-btn:hover {
+  transform: scale(1.2);
+  color: #e6007a;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); }
+  to { transform: scale(1); }
+}
+.app-dark .hackathons-title{
+  color: #fff;
+}
+.app-dark .hackathon-card{
+    background: #2d3748;
+}
+.app-dark span,
+.app-dark p{
+  color: aliceblue;
+}
