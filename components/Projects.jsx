@@ -8,7 +8,7 @@ const projects = [
     image: "/assets/Banner-1.png",
     description: "An app for women's safety with SOS, live location, and safe route features.",
     link: "https://durlassa.netlify.app/",
-    github: "#",
+    github: "https://github.com/Kaushal171205/WomenSafetyWebApp.git",
     tech: ["React", "Javascript", "Firebase", "MapBoxAPI"]
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     title: "DeshDuniya | Tour Booking System",
     image: "/assets/Banner-2.png",
     description: "Find the most relevant trip locations in India.",
-    link: "#",
+    link: "https://deshduniya.netlify.app/",
     github: "https://github.com/Kaushal171205/Travel-Website",
     tech: ["HTML", "CSS", "JavaScript"]
   },
