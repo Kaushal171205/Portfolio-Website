@@ -20,7 +20,7 @@ const Navbar = ({
         <a href="#hack" onClick={handleLinkClick}>Hackathons</a>
       </div>
       <div className="navbar-actions">
-        <a href="https://drive.google.com/file/d/1kzXfUu3wq2S7wJOCOmY-DfDd4gydci3m/view?usp=drivesdk" className="resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="https://drive.google.com/file/d/1x0v9OifT4AMaEuHs4iyNCQxe9FGrhYAb/view?usp=drivesdk" className="resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
         <button className="dark-mode-toggle" aria-label="Toggle dark mode" onClick={toggleDarkMode}>
           {isDarkMode ? <FaSun /> : <FaMoon />}
         </button>
