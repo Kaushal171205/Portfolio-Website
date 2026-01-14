@@ -35,7 +35,7 @@ const Navbar = ({
           <a href="#projects" onClick={handleLinkClick}>Projects</a>
           <a href="#contact" onClick={handleLinkClick}>Contact</a>
           <a href="#hack" onClick={handleLinkClick}>Hackathons</a>
-          <a href="https://drive.google.com/file/d/16Nyf7AV5Zqeq7IBXYASSUGSWgg9KkW8R/view?usp=drivesdk" className="resume-btn" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>Resume</a>
+          <a href="https://drive.google.com/file/d/1LZ0VcPjXd5INbN51nioLNH6fN14nSVUN/view?usp=drivesdk" className="resume-btn" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>Resume</a>
         </div>
       )}
     </nav>
