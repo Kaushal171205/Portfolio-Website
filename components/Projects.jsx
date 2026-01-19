@@ -13,12 +13,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "DeshDuniya | Tour Booking System",
+    title: "PDF-Forge | Pdf Editor",
     image: "/assets/Banner-2.png",
-    description: "Find the most relevant trip locations in India.",
-    link: "https://deshduniya.netlify.app/",
-    github: "https://github.com/Kaushal171205/Travel-Website",
-    tech: ["HTML", "CSS", "JavaScript"]
+    description: "A modern web-based PDF editor that visually edit text and images directly on PDFs, with precise saving and code-level control for advanced customization",
+    link: "https://pdf-dual.netlify.app/",
+    github: "https://github.com/Kaushal171205/PdfEditor",
+    tech: ["ReactJS", "NodeJS", "JavaScript"]
   },
   {
     id: 3,
@@ -37,6 +37,15 @@ const projects = [
     link: "https://zenyukti.github.io/",
     github: "https://github.com/Kaushal171205/zenyukti.github.io",
     tech: ["Reactjs", "CSS", "JavaScript", "ExpressJS", "NodeJS", "MongoDB"]
+  },
+  {
+    id: 5,
+    title: "DeshDuniya | Tour Booking System",
+    image: "/assets/Banner-5.png",
+    description: "Find the most relevant trip locations in India.",
+    link: "https://deshduniya.netlify.app/",
+    github: "https://github.com/Kaushal171205/Travel-Website",
+    tech: ["HTML", "CSS", "JavaScript"]
   }
 ];
 
