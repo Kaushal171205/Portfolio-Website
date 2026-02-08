@@ -30,7 +30,7 @@ function App() {
         <a className="projects" href="#projects">Projects</a>
         {/* Social icons row */}
         <div className="social-icons-row">
-          <a href="https://www.linkedin.com/in/kaushal-sharma-4920ab2a2/" className="social-icon" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+          <a href="https://www.linkedin.com/in/kaushal--sharma/" className="social-icon" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
           <a href="https://github.com/Kaushal171205" className="social-icon" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
           <a href="mailto:ksharma17052005@gmail.com" className="social-icon"><MdEmail /></a>
           <a href="#about" className="social-icon"><FaUserAlt /></a>
