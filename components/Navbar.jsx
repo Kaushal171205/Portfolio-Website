@@ -20,7 +20,7 @@ const Navbar = ({
         <a href="#hack" onClick={handleLinkClick}>Hackathons</a>
       </div>
       <div className="navbar-actions">
-        <a href="https://drive.google.com/file/d/1LZ0VcPjXd5INbN51nioLNH6fN14nSVUN/view?usp=drivesdk" className="resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="https://drive.google.com/file/d/16v6SjLYgqTu0z5M3xu5fFEE7mi4YGBcV/view?usp=drivesdk" className="resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
         <button className="dark-mode-toggle" aria-label="Toggle dark mode" onClick={toggleDarkMode}>
           {isDarkMode ? <FaSun /> : <FaMoon />}
         </button>
@@ -35,7 +35,7 @@ const Navbar = ({
           <a href="#projects" onClick={handleLinkClick}>Projects</a>
           <a href="#contact" onClick={handleLinkClick}>Contact</a>
           <a href="#hack" onClick={handleLinkClick}>Hackathons</a>
-          <a href="https://drive.google.com/file/d/1LZ0VcPjXd5INbN51nioLNH6fN14nSVUN/view?usp=drivesdk" className="resume-btn" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>Resume</a>
+          <a href="https://drive.google.com/file/d/16v6SjLYgqTu0z5M3xu5fFEE7mi4YGBcV/view?usp=drivesdk" className="resume-btn" target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>Resume</a>
         </div>
       )}
     </nav>

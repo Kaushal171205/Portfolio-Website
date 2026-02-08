@@ -4,12 +4,12 @@ import "../src/styling/Projects.css";
 const projects = [
   {
     id: 1,
-    title: "Durlassa | Women Safety WebApp",
+    title: "Code-Lab | Code Visualizer and editor",
     image: "/assets/Banner-1.png",
-    description: "An app for women's safety with SOS, live location, and safe route features.",
-    link: "https://durlassa.netlify.app/",
-    github: "https://github.com/Kaushal171205/WomenSafetyWebApp.git",
-    tech: ["React", "Javascript", "Firebase", "MapBoxAPI"]
+    description: "An interactive code visualization and execution platform that runs multi-language programs and visually explains algorithm behavior step by step.",
+    link: "https://codevisualizer-z5qx.onrender.com/",
+    github: "https://github.com/Kaushal171205/Code_Visualizer",
+    tech: ["ReactJS", "NodeJS", "JavaScript", "ExpressJS", "MonacoEditor", "LLDBSimulator"]
   },
   {
     id: 2,
@@ -20,16 +20,16 @@ const projects = [
     github: "https://github.com/Kaushal171205/PdfEditor",
     tech: ["ReactJS", "NodeJS", "JavaScript"]
   },
-  {
+   {
     id: 3,
-    title: "Portfolio Website",
+    title: "Durlassa | Women Safety WebApp",
     image: "/assets/Banner-3.png",
-    description: "A personal portfolio showcasing skills and projects.",
-    link: "#",
-    github: "https://github.com/Kaushal171205/Portfolio-Website",
-    tech: ["React", "CSS", "Vite"]
+    description: "An app for women's safety with SOS, live location, and safe route features.",
+    link: "https://durlassa.netlify.app/",
+    github: "https://github.com/Kaushal171205/WomenSafetyWebApp.git",
+    tech: ["React", "Javascript", "Firebase", "MapBoxAPI"]
   },
-  {
+   {
     id: 4,
     title: "ZenYukti | Community to Connect",
     image: "/assets/Banner-4.png",
@@ -40,8 +40,18 @@ const projects = [
   },
   {
     id: 5,
-    title: "DeshDuniya | Tour Booking System",
+    title: "Portfolio Website",
     image: "/assets/Banner-5.png",
+    description: "A personal portfolio showcasing skills and projects.",
+    link: "#",
+    github: "https://github.com/Kaushal171205/Portfolio-Website",
+    tech: ["React", "CSS", "Vite"]
+  },
+ 
+  {
+    id: 6,
+    title: "DeshDuniya | Tour Booking System",
+    image: "/assets/Banner-6.png",
     description: "Find the most relevant trip locations in India.",
     link: "https://deshduniya.netlify.app/",
     github: "https://github.com/Kaushal171205/Travel-Website",
