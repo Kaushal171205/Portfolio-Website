@@ -7,7 +7,7 @@ const projects = [
     title: "Code-Lab | Code Visualizer and editor",
     image: "/assets/Banner-1.png",
     description: "An interactive code visualization and execution platform that runs multi-language programs and visually explains algorithm behavior step by step.",
-    link: "https://codevisualizer-z5qx.onrender.com/",
+    link: "https://code-visualizer-2.onrender.com/",
     github: "https://github.com/Kaushal171205/Code_Visualizer",
     tech: ["ReactJS", "NodeJS", "JavaScript", "ExpressJS", "MonacoEditor", "LLDBSimulator"]
   },
