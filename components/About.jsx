@@ -5,7 +5,7 @@ const info = {
   title: "Full Stack Web Developer",
   stack: "MERN stack, C++",
   hackathons: 4,
-  hostedProjects: 4,
+  hostedProjects: 6,
   leetcode: "200+",
   photo: "/assets/Photo.png",
 };

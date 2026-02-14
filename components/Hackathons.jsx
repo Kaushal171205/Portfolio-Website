@@ -25,7 +25,16 @@ const hackathons = [
     description: "24-hour hackathon — received participation certificate and guidance from mentors.",
     year: "2024",
     certificate: "/assets/cert-3.jpeg",
+  },
+  {
+    id: 4,
+    title: "HCL-GUVI Hackathon",
+    organizer: "Organized by HCLGUVI",
+    description: "24-hour online hackathon — received participation certificate and guidance from mentors.",
+    year: "2025",
+    certificate: "/assets/cert-4.jpeg",
   }
+
 ];
 
 const Hackathons = () => {
